@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Application opened]]>
+    </line>
+    <line>
+      <![CDATA[Login completed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-02-07T13:09:43 IST" name="Default suite" finished-at="2024-02-07T13:10:02 IST" duration-ms="18456">
+    <groups>
+    </groups>
+    <test started-at="2024-02-07T13:09:43 IST" name="Default test" finished-at="2024-02-07T13:10:02 IST" duration-ms="18456">
+      <class name="testNG_EX.WB_testNG">
+        <test-method is-config="true" signature="startUP()[pri:0, instance:testNG_EX.WB_testNG@4802796d]" started-at="2024-02-07T13:09:43 IST" name="startUP" finished-at="2024-02-07T13:09:47 IST" duration-ms="3648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUP -->
+        <test-method signature="tc001()[pri:0, instance:testNG_EX.WB_testNG@4802796d]" started-at="2024-02-07T13:09:47 IST" name="tc001" finished-at="2024-02-07T13:10:02 IST" duration-ms="14600" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application opened]]>
+            </line>
+            <line>
+              <![CDATA[Login completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNG_EX.WB_testNG@4802796d]" started-at="2024-02-07T13:10:02 IST" name="tearDown" finished-at="2024-02-07T13:10:02 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNG_EX.WB_testNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

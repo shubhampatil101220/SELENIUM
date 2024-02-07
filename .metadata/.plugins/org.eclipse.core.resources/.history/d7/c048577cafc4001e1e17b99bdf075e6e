@@ -1,0 +1,24 @@
+package hrms;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+public class alerts {
+	public static void main(String[] args) throws Exception{
+		System.setProperty("webdriver.chrome.chromedriver", "C:\\Users\\HP\\Downloads\\webDriver\\chromedriver.exe");
+	    WebDriver driver = new ChromeDriver();
+	   
+	    driver.navigate().to("https://skpatro.github.io/demo/alerts/");
+	    Thread.sleep(5000);
+	    driver.findElement(By.xpath("//*[@id=\"regform\"]/input[1]")).click();
+	    Thread.sleep(2000);
+		
+	    Alert a = driver.switchTo().alert();
+	    
+	    a.accept();  //It will Accept the alert or it will click on ok button 
+	    //a.dismiss(); // it will click on cancel button
+	    a.getText();  //it will get the text on that alert
+	}
+
+}

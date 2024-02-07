@@ -1,0 +1,25 @@
+package com.hrms.lib;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class General extends Global{
+	public void openApplication() {
+		System.setProperty("webdriver.chrome.chromedriver", "C:\\Users\\HP\\Downloads\\webDriver\\chromedriver.exe");
+	    WebDriver driver = new ChromeDriver();
+	    driver.navigate().to(url);
+	    System.out.println("Applicatiion opened Successfully");
+	}
+	public void closeApplication(){
+		driver.close();
+		driver.quit();
+	}
+	public void login() {
+		// TODO Auto-generated method stub
+		System.out.println("Login has Done");
+	}
+	public void logout() {
+		// TODO Auto-generated method stub
+		System.out.println("Logout has Done");
+	}
+}

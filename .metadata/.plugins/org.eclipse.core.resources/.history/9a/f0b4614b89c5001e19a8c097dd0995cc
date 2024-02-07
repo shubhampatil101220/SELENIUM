@@ -1,0 +1,16 @@
+package testNG_EX;
+
+import org.testng.annotations.Test;
+
+public class testNG_1 {
+	@Test
+	private void opanApplicatiion() {
+		// TODO Auto-generated method stub
+		System.out.println("Application Opened")
+	}
+	@Test
+	private void closeApplication() {
+		// TODO Auto-generated method stub
+		System.out.println("Application Closed");
+	}
+}

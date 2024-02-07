@@ -1,0 +1,19 @@
+package hrms;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+public class alerts {
+	public static void main(String[] args) throws Exception{
+		System.setProperty("webdriver.chrome.chromedriver", "C:\\Users\\HP\\Downloads\\webDriver\\chromedriver.exe");
+	    WebDriver driver = new ChromeDriver();
+	   
+	    driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+	    Thread.sleep(5000);
+	    driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[4]/p")).click();
+	    Thread.sleep(2000);
+		
+	}
+
+}
